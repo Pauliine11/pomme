@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(218, 240, 140, 0.814);
+    border: 1px solid rgba(9, 11, 2, 0.607);
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+header{
+    background-color: white;
+    height: 200px;
+}
+
+.entete{
+    position: relative;
+    top: 20px;
+    right: 10px;
+    float: right;
+}
+
+.etape1, .etape2, .etape3, .etape4, .etape5{
+    background-color: greenyellow;
+    float: left;
+    border-right: 3px solid white;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    width: 16%;
+}
+
+nav{
+    color: white;
+}   
+ 
+   
+#conteneur{
+    width: 900px;
+    height: 80%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+section{
+    background-color: white;
+    height: 650px;
+    text-align: justify;
+}
+
+h1, h2{
+    color: rgba(80, 226, 80, 0.992);
+}
+
+.etape1, .etape2, .etape3, .etape4, .etape5{
+    border-right: 2px solid green;
+}
+
+

@@ -1,0 +1,76 @@
+body{
+    background-color: #DDEEAA;
+}
+
+.contener{
+    background-color: white;
+    width: 50%;
+    height: 890px;
+    margin: 0 auto;
+    border: solid 2px #AABB44;
+}
+
+nav{
+    background: url(../img/bg_menu.gif) repeat-x 0 -25px;
+    height: 35px;
+}
+
+main{
+    display: flex;
+}
+
+.etape1, .etape2, .etape3, .etape4, .etape5{
+    float: left;
+    border-right: 3px solid white;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    width: 16%;
+}
+
+.entete{
+    position: relative;
+    top: 20px;
+    right: 20px;
+    float: right;
+}
+
+.imgGauche{
+    position: relative;
+    float: left;
+    left: 20px;
+    margin-top: 40px;
+}
+
+.centre{
+    margin-left: 10%;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 140%;
+    word-break: break-all
+
+}
+    
+.titre1{
+    color: #A9C645;
+    font-size: 28px;
+    border-bottom: 3px solid rgba(134, 205, 27, 0.572);
+}    
+
+.titre2{
+    color: #A9C645;
+    font-size: 28px;
+    border-left: 3px solid rgba(134, 205, 27, 0.572);
+    border-bottom: 3px solid rgba(134, 205, 27, 0.572); 
+}
+
+.marge{
+    width: 100%;
+    padding-left: 50px;
+}
+
+
+
+
+
+
